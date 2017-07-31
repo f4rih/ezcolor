@@ -13,13 +13,26 @@ Inline-style:
 ![alt text](https://github.com/0x0ptim0us/images/raw/master/image1.png "ezcolor 1")
 
 ## Supported colors
-| Foreground and Background        | 
+| Foreground and Background| 
 | ------------- |
-| black     | 
-| red     | 
-| green |
-|yellow |
-|blue  |
+|black| 
+|red| 
+|green|
+|yellow|
+|blue|
+|magenta|
+|cyan|
+|light_gray|
+|dark_gray|
+|light_red|
+|light_green|
+|light_yellow|
+|light_blue|
+|light_magenta|
+|light_cyan|
+|white|
+
+
 ## Credits
 Author : Fardin Allahverdinazhand
 ## License
