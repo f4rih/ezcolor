@@ -12,6 +12,13 @@ cp('Hello World!', foreground='blue', background='yellow', underline=True, bold=
 Inline-style: 
 ![alt text](https://github.com/0x0ptim0us/images/raw/master/image1.png "ezcolor 1")
 
+## Supported colors
+| Foreground and Background        | 
+| ------------- |
+| black     | 
+| red     | 
+| green | 
+
 ## Credits
 Author : Fardin Allahverdinazhand
 ## License
