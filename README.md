@@ -15,10 +15,11 @@ Inline-style:
 ## Supported colors
 | Foreground and Background        | 
 | ------------- |
-| black     | yellow |
-| red     | blue  |
-| green | magenta |
-
+| black     | 
+| red     | 
+| green |
+|yellow |
+|blue  |
 ## Credits
 Author : Fardin Allahverdinazhand
 ## License
