@@ -2,7 +2,15 @@
 # ezcolor
 A simple python lib for set text attribute to output, like foreground, background color, bold and underline
 ## Installation
+```
+git clone https://github.com/0x0ptim0us/ezcolor.git
+cd ezcolor
+python setup.py install
+```
+OR:
+```
 pip3 install ezcolor
+```
 ## Usage
 ```python
 from ezcolor import cprint
