@@ -15,9 +15,9 @@ Inline-style:
 ## Supported colors
 | Foreground and Background        | 
 | ------------- |
-| black     | 
-| red     | 
-| green | 
+| black     | yellow |
+| red     | blue  |
+| green | magenta |
 
 ## Credits
 Author : Fardin Allahverdinazhand
