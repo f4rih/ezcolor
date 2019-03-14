@@ -1,6 +1,6 @@
 
 # ezcolor
-A simple python lib for set text attribute to output, like foreground, background color, bold and underline
+A lightweight lib for adding extra attributes to text
 ## Installation
 ```
 git clone https://github.com/0x0ptim0us/ezcolor.git
@@ -11,17 +11,38 @@ OR:
 ```
 pip3 install ezcolor
 ```
-## Usage
+## Simple Usage
 ```python
-from ezcolor import cprint
-cp = cprint()
-cp('Hello World!', foreground='blue', background='yellow', underline=True, bold=True)
+from ezcolor import Style
+# create style object
+style = Style()
+# create your own style
+cp = style.add.foreground('green').apply()
+cp('hello world')
 ```
 Screenshot: 
-![alt text](https://github.com/0x0ptim0us/images/raw/master/image1.png "ezcolor 1")
+![alt text](https://github.com/0x0ptim0us/images/raw/master/ezcolor_simple_output.png "ezcolor v2 simple")
+
+## Adding more attribute
+```python
+cp = style.add.foreground('green').background('dark_gray').bold.italic.underline.apply()
+cp('hello world')
+```
+Screenshot: 
+![alt text](https://github.com/0x0ptim0us/images/raw/master/ezcolor_more_attribute.png "ezcolor v2 more")
+## Adding prefix for beautiful logging
+```python
+cp = style.add.foreground('green').prefix('done').bold.italic.apply()
+cp('Job is done!')
+cp_error = style.add.foreground('red').prefix('error').bold.italic.apply()
+cp_error('Error occurred!')
+```
+Screenshot: 
+![alt text](https://github.com/0x0ptim0us/images/raw/master/ezcolor_prefix_done.png "ezcolor v2 prefix_done")
+![alt text](https://github.com/0x0ptim0us/images/raw/master/ezcolor_prefix_error.png "ezcolor v2 prefix_error")
 
 ## Supported colors
-| Foreground and Background| 
+| Foreground and Background|
 | ------------- |
 |black| 
 |red| 
@@ -41,12 +62,19 @@ Screenshot:
 |white|
 
 
+| Prefix|
+| ------------- |
+|done|
+|info| 
+|error| 
+|warning|
+ 
 ## Credits
 Author : Fardin Allahverdinazhand
 ## License
-Copyright 2017 EZCOLOR
+Copyright 2017-2019 EZCOLOR
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ezcolor), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
