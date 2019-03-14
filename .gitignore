@@ -1,5 +1,6 @@
 # ignore pycharm files
 .idea/
+.idea/vcs.xml
 
 # ignore venv
 venv/
