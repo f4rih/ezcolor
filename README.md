@@ -1,17 +1,16 @@
-
 # ezcolor
 
 A lightweight lib for adding extra attributes to text
 
 ## Installation
 
-```
+```text
 git clone https://github.com/0x0ptim0us/ezcolor.git
 cd ezcolor
 python setup.py install
 ```
 OR:
-```
+```text
 pip3 install ezcolor
 ```
 
@@ -54,32 +53,32 @@ Screenshot:
 
 ## Supported colors
 
-| Foreground and Background|
-| ------------- |
-|black| 
-|red| 
-|green|
-|yellow|
-|blue|
-|magenta|
-|cyan|
-|light_gray|
-|dark_gray|
-|light_red|
-|light_green|
-|light_yellow|
-|light_blue|
-|light_magenta|
-|light_cyan|
-|white|
+| Foreground and Background |
+| ------------------------- |
+| black                     | 
+| red                       | 
+| green                     |
+| yellow                    |
+| blue                      |
+| magenta                   |
+| cyan                      |
+| light_gray                |
+| dark_gray                 |
+| light_red                 |
+| light_green               |
+| light_yellow              |
+| light_blue                |
+| light_magenta             |
+| light_cyan                |
+| white                     |
 
 
-| Prefix|
-| ------------- |
-|done|
-|info| 
-|error| 
-|warning|
+| Prefix   |
+| ---------|
+| done     |
+| info     | 
+| error    | 
+| warning  |
  
 ## Credits
 
