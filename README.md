@@ -1,5 +1,7 @@
 # ezcolor
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/5384da344156447daa23f588fc8fbae6)](https://app.codacy.com/app/0x0ptim0us/ezcolor?utm_source=github.com&utm_medium=referral&utm_content=0x0ptim0us/ezcolor&utm_campaign=Badge_Grade_Dashboard)
+
 A lightweight lib for adding extra attributes to text
 
 ## Installation
