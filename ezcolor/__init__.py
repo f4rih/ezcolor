@@ -1,4 +1,6 @@
 from copy import deepcopy
+# Ezcolor library for python
+#
 
 
 # Template builder
@@ -12,9 +14,25 @@ class _CPrint:
 		self.prefix = None
 
 	def __call__(self, text):
+		print(self.__prepare_str(text=text))
+
+	def code(self, text):
+		return self.__prepare_str(text=text)
+
+	def __prepare_str(self, text):
 		template = self.__pattern_generator()
 		template = template.replace("%TEXT%", text)
-		print(template)
+		return template
+
+	def decorate(self, func):
+		def wrapper(*args, **kwargs):
+			result = func(*args, **kwargs)
+			if isinstance(result, str):
+				template = self.__prepare_str(text=result)
+				return template
+			else:
+				return result
+		return wrapper
 
 	def __str__(self):
 		return f"<Style(foreground={self.foreground}, background={self.background}), bold={self.bold}, " \
