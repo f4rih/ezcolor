@@ -4,3 +4,6 @@
 
 # ignore venv
 venv/
+
+# ignore mac cache
+.DS_Store/

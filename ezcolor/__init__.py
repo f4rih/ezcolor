@@ -2,6 +2,7 @@ from copy import deepcopy
 # Ezcolor library for python
 #
 
+__version__ = 0.7
 
 # Template builder
 class _CPrint:
