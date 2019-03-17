@@ -1,7 +1,7 @@
 import codecs
 from distutils.core import setup
 
-EZCOLOR_VERSION = '0.6'
+EZCOLOR_VERSION = '0.7'
 EZCOLOR_DOWNLOAD = ('https://github.com/0x0ptim0us/ezcolor/tarball/' + EZCOLOR_VERSION)
 
 def read_file(filename):
