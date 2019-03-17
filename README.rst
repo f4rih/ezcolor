@@ -26,6 +26,7 @@ Usage
  $ pip install ezcolor
 
 .. code-block:: python
+
  from ezcolor import Style
  style = Style()
  cp = style.add.foreground('green').apply()
